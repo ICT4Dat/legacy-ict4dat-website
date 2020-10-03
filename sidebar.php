@@ -10,6 +10,12 @@
 
 <div id="sidebar_partners" class="sidebar_border">
   <h3>Partners</h3>
+
+  <a href="https://www.rise-world.com/en/" target="_blank"><img alt="Logo of RISE" src="<?php bloginfo('template_directory'); ?>/images/partner/rise_color.png" /></a>
+  
+  <br/><br/>
+
+  <h3>Supporters</h3>
   <a href="https://www.world4you.com/" target="_blank"><img name="world4you" onmouseover="world4you.src='<?php bloginfo('template_directory'); ?>/images/partner/world4you_color.png'" onmouseout="world4you.src='<?php bloginfo('template_directory'); ?>/images/partner/world4you_grey.png'" src="<?php bloginfo('template_directory'); ?>/images/partner/world4you_grey.png" /></a><br/>
   <br/>
   <a href="http://entwicklung.at/" target="_blank"><img name="adc" onmouseover="adc.src='<?php bloginfo('template_directory'); ?>/images/partner/adc_color.png'" onmouseout="adc.src='<?php bloginfo('template_directory'); ?>/images/partner/adc_grey.png'" src="<?php bloginfo('template_directory'); ?>/images/partner/adc_grey.png" /></a><br/>
