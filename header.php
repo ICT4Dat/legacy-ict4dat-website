@@ -39,7 +39,7 @@
 										"<?php bloginfo('template_directory'); ?>/images/partner/adc_color.png", // Sidebar
 										"<?php bloginfo('template_directory'); ?>/images/partner/fossfa_color.png",
 										"<?php bloginfo('template_directory'); ?>/images/partner/mewe_color.png",
-										"<?php bloginfo('template_directory'); ?>/images/partner/silver_color.png",
+										"<?php bloginfo('template_directory'); ?>/images/partner/rise_color.png",
 										"<?php bloginfo('template_directory'); ?>/images/partner/edev_color.png",
 										"<?php bloginfo('template_directory'); ?>/images/partner/olp_color.png",
 										"<?php bloginfo('template_directory'); ?>/images/partner/tu_color.png");
