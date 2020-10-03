@@ -11,7 +11,7 @@
 <div id="sidebar_partners" class="sidebar_border">
   <h3>Partners</h3>
 
-  <a href="https://www.rise-world.com/en/" target="_blank"><img alt="Logo of RISE" src="<?php bloginfo('template_directory'); ?>/images/partner/rise_color.png" /></a>
+  <a href="https://www.rise-world.com/en/" target="_blank"><img alt="Logo of RISE" width="200" height="73" src="<?php bloginfo('template_directory'); ?>/images/partner/rise_color.png" /></a>
   
   <br/><br/>
 
