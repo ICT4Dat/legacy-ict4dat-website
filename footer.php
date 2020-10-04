@@ -2,13 +2,20 @@
 
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?> <!-- shows last edit -->
 
-        <span id="world4you_text">
+        <span id="partner_supported_by">
             Proudly supported by
         </span>
 
-        <span id="world4you_footer">
-          <a href="https://www.world4you.com/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/partner/footer_world4you.png" alt="World4You Logo" width="120" height="30" /></a>
+		<span id="partner_rise">
+          <a href="https://www.rise-world.com/en/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/partner/footer_rise.png" alt="RISE Logo" width="88" height="30" /></a>
         </span>
+
+		<span id="partner_supported_by_and">&</span>
+
+        <span id="partner_world4you">
+          <a href="https://www.world4you.com/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/partner/footer_world4you.png" alt="World4You Logo" width="120" height="30" /></a>
+		</span>
+		
 <?php break; ?>
 			<?php endwhile; ?>
 			<?php endif; ?>

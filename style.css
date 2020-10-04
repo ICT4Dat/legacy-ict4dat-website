@@ -364,16 +364,34 @@ a {
 /**********************
  Footer
  ***********************/
-#world4you_footer {
-	margin: 10px 0 0 185px;
+
+#partner_rise {
+	margin: 10px 0 0 192px;
 	position: absolute;
 }
 
-#world4you_text {
+#partner_world4you {
+	margin: 10px 0 0 310px;
+	position: absolute;
+}
+
+#partner_supported_by {
 	margin-top: 15px;
 	position: absolute;
 	margin-left: 60px;
 	font-weight: bold;
+}
+
+#partner_supported_by_and {
+	margin-top: 12px;
+	position: absolute;
+	margin-left: 293px;
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+.partner_and {
+	font-weight: bold;	
 }
 
 /* Menu */

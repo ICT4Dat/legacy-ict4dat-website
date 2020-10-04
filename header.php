@@ -41,7 +41,9 @@
 										"<?php bloginfo('template_directory'); ?>/images/partner/rise_color.png",
 										"<?php bloginfo('template_directory'); ?>/images/partner/edev_color.png",
 										"<?php bloginfo('template_directory'); ?>/images/partner/olp_color.png",
-										"<?php bloginfo('template_directory'); ?>/images/partner/inso.png");
+										"<?php bloginfo('template_directory'); ?>/images/partner/inso.png",
+										"<?php bloginfo('template_directory'); ?>/images/partner/footer_rise.png", // footer
+										"<?php bloginfo('template_directory'); ?>/images/partner/footer_world4you.png");
 
 		for(var i=0; i < preLoadImgsUrls.length; i++) {
 			tmp = new Image();
