@@ -1,0 +1,429 @@
+/*
+ Theme Name: ict4d.at
+ Theme URI: ict4d.at
+ Description: Wordpress template for ict4d.at_update_3_2_1
+ Author: Paul Spiesberger
+ Author URI: ict4d.at
+ */
+
+body {
+	background: #FFF;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+#wrapper {
+	background-color: #f4f4f4;
+	margin: auto;
+	width: 950px;
+}
+
+#header {
+	height: 150px;
+	/*background-color:#9dc9de;*/
+	/*background-image:url('images/background/blau1.png');*/
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	background: #9FD0ED;
+}
+
+#main {
+	margin-top: 30px;
+	background-color: #f4f4f4;
+}
+
+#posts {
+	background-color: #F4F4F4;
+	float: right;
+	margin-right: 60px;
+	width: 570px;
+}
+
+#sidebar {
+	width: 216px;
+	float: left;
+	margin-left: 60px;
+}
+
+#footer {
+	height: 50px;
+	background-color: #f4f4f4;
+	clear: both;
+	margin-top: 20px;
+}
+
+/**********************
+ Header
+ ***********************/
+#header_top {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #FFF;
+	height: 30px;
+}
+
+/* Social */
+.social {
+	display: inline;
+}
+
+.social img {
+	margin-left: 8px;
+	margin-top: 6px;
+}
+
+#social_linkedin {
+	margin-bottom: -2px;
+}
+
+#social_youtube {
+	margin-bottom: -2px;
+}
+
+/* Menu */
+#menu-mainmenu_header {
+	list-style: none;
+	font-weight: bold;
+	/* Clear floats */
+	float: left;
+	width: 100%;
+	padding-left: 100px;
+	/* Bring the nav above everything else--uncomment if needed.
+	 position:relative;
+	 z-index:5;
+	 */
+}
+#menu-mainmenu_header li {
+	float: left;
+	margin-right: 18px;
+	position: relative;
+	text-decoration: none;
+}
+#menu-mainmenu_header a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+#menu-mainmenu_header a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.menu-mainmenu_header-container {
+	margin: 64px 0 0 520px;
+}
+
+#header_menu_logo img {
+	float: left;
+	margin: 46px 0 0 60px;
+}
+
+#menu-mainmenu_header ul {
+	background: #fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+	background: rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+	list-style: none;
+	position: absolute;
+	left: -9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+}
+
+#menu-mainmenu_header ul li {
+	float: none;
+}
+
+#menu-mainmenu_header ul a {
+	white-space: nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+	background: #FFF;
+	padding: 5px 15px;
+	color: #000;
+}
+
+#menu-mainmenu_header li:hover ul {/* Display the dropdown on hover */
+	left: 0; /* Bring back on-screen when needed */
+}
+
+#menu-mainmenu_header li:hover a {/* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+	/*background:#FFF;*/
+	text-decoration: none;
+}
+
+#menu-mainmenu_header li:hover ul a {/* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+	text-decoration: none;
+}
+
+#menu-mainmenu_header li:hover ul li a:hover {/* Here we define the most explicit hover states--what happens when you hover each individual link. */
+	background: #CCC;
+}
+
+.sub-menu {
+	padding-top: 10px;
+	margin-left: -17px;
+}
+
+.menu-menu_footer-container li {
+	list-style-type: none;
+	list-style-image: none;
+	display: inline;
+	text-decoration: none;
+	margin-right: 13px;
+}
+
+#menu-mainmenu_header .current-menu-item a {
+	color: #000;
+}
+
+/* Search */
+#ict4d_search {
+	float: right;
+}
+
+.regions {
+	float: left;
+	margin-right: 10px;
+}
+
+#authors {
+	float: left;
+	margin-right: 10px;
+}
+
+#cat {
+	width: 150px;
+}
+
+#searchform {
+	float: left;
+}
+
+#s {
+	width: 128px;
+}
+
+#search_archives {
+	float: left;
+	margin-right: 10px;
+}
+
+/* Donate */
+
+#donate_header {
+	background-color: #F6FCFF;
+	border: 1px solid #A0D4E6;
+	/* border-radius: 10px 10px 10px 10px; */
+	color: #408ECC;
+	font-size: 12px;
+	height: 75px;
+	padding: 8px;
+	width: 814px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#donate_header form {
+	float: right;
+	margin: 15px 16px 0 0;
+}
+
+#donate_header div {
+	width: 638px;
+	float: left;
+	height: 77px;
+	border-right: thin solid;
+}
+
+/**********************
+ Main Blog
+ ***********************/
+
+/* comments 4 single.php */
+.blog_item {
+	float: right;
+	margin-right: 60px;
+	margin-top: 30px;
+	width: 580px;
+}
+
+#comment {
+	width: 516px;
+}
+
+.onePost_post {
+	margin-bottom: 68px;
+}
+
+.onePost_post h2 {
+	font-size: 19px;
+	font-weight: bold;
+	line-height: 26px;
+}
+
+.onePost_post h3 {
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.alignright {
+	float: right;
+	margin: 4px 0 6px 6px;
+	text-align: center;
+}
+
+/**********************
+ Sidebar
+ ***********************/
+
+#sidebar_partners img {
+	margin-bottom: 10px;
+}
+
+#sidebar div {
+	background-color: #fcfcfc;
+	padding: 8px;
+}
+
+.sidebar_border {
+	margin: 10px 0;
+	border: 1px solid #A0D4E6;
+}
+
+#announcement p {
+	margin-bottom: 0;
+	margin-top: 12px;
+}
+
+/**********************
+ Pages
+ ***********************/
+
+#page_content {
+	background-color: #F4F4F4;
+	float: right;
+	margin-right: 60px;
+	width: 560px;
+}
+
+.project_logo img {
+	margin-top: 15px;
+}
+
+/**********************
+ Start Page
+ ***********************/
+#main_home {
+	width: 830px;
+	margin-left: 60px;
+}
+
+#slideshow_home {
+	width: 830px;
+	height: 350px;
+	background-color: #f4f4f4;
+	margin-left: 60px;
+}
+
+#lastBlogPost_home {
+	float: left;
+	background-color: #FFF;
+	height: 200px;
+	width: 380px;
+	padding: 10px;
+	border: 1px solid #A0D4E6;
+	margin: 25px 0 0 0px;
+}
+
+#content_home {
+	float: right;
+	background-color: #FFF;
+	height: 200px;
+	width: 380px;
+	padding: 10px;
+	border: 1px solid #A0D4E6;
+	margin: 25px 0 0 10px;
+}
+
+/**********************
+ Join Us
+ ***********************/
+
+#main_join_us {
+	margin: 10px 60px;
+}
+
+/**********************
+ Projects
+ ***********************/
+
+.one_project {
+	margin-top: 40px;
+}
+
+/**********************
+ Footer
+ ***********************/
+
+#partner_rise {
+	margin: 10px 0 0 192px;
+	position: absolute;
+}
+
+#partner_world4you {
+	margin: 10px 0 0 310px;
+	position: absolute;
+}
+
+#partner_supported_by {
+	margin-top: 15px;
+	position: absolute;
+	margin-left: 60px;
+	font-weight: bold;
+}
+
+#partner_supported_by_and {
+	margin-top: 12px;
+	position: absolute;
+	margin-left: 293px;
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+.partner_and {
+	font-weight: bold;	
+}
+
+/* Menu */
+.menu-menu_footer-container {
+	float: right;
+	margin: 20px 29px 0 0;
+}
+
+#menu-menu_footer a:link {
+	color: #0066CC;
+}
+#menu-menu_footer a:visited {
+	color: #0066CC;
+}
+#menu-menu_footer a:hover {
+	color: #000;
+}
+
+#menu-menu_footer .current-menu-item a {
+	color: #000;
+}
+
+.menu-item {
+	z-index: 2000;
+}
+
+/**********************
+ 404
+ ***********************/
+
+#error_404 {
+	float: right;
+	margin-right: 60px;
+	width: 560px;
+}
