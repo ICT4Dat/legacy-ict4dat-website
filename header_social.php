@@ -16,6 +16,8 @@
          <a href="http://www.youtube.com/ict4dat" target="_blank"><img id="social_youtube" src="<?php bloginfo('template_directory'); ?>/images/social/youtube_grey.png" align="absmiddle" alt="youtube" name="youtube" onmouseover="youtube.src='<?php bloginfo('template_directory'); ?>/images/social/youtube_color.png';" onMouseOut="youtube.src='<?php bloginfo('template_directory'); ?>/images/social/youtube_grey.png';" /></a>
 
 		<a href="http://flickr.com/photos/ict4d/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/social/flickr_grey.png" align="absmiddle" alt="flickr" name="flickr" onmouseover="flickr.src='<?php bloginfo('template_directory'); ?>/images/social/flickr_color.png';" onMouseOut="flickr.src='<?php bloginfo('template_directory'); ?>/images/social/flickr_grey.png';" /></a>
+
+        <a rel="me" href="https://mastodon.social/@spipau" target="_blank"><img height="13px" width="12px" src="<?php bloginfo('template_directory'); ?>/images/social/mastodon_grey.svg" align="absmiddle" alt="mastodon" name="mastodon" onmouseover="mastodon.src='<?php bloginfo('template_directory'); ?>/images/social/mastodon.svg';" onMouseOut="mastodon.src='<?php bloginfo('template_directory'); ?>/images/social/mastodon_grey.svg';" /></a>
     </div>
 <!--/social -->
 
@@ -36,6 +38,3 @@
     </div>
 </div>
 <!--/search -->
-
-
-
