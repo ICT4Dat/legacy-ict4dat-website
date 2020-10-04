@@ -20,8 +20,7 @@
 
         <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
-         <script type="text/JavaScript" src="<?php bloginfo('template_directory'); ?>/js/ict4d.js"></script>
-
+        <script type="text/JavaScript" src="<?php bloginfo('template_directory'); ?>/js/ict4d.js"></script>
 
 	<script type="text/JavaScript">
 		// Array filled with image URLs to preload them
