@@ -42,7 +42,7 @@
 										"<?php bloginfo('template_directory'); ?>/images/partner/rise_color.png",
 										"<?php bloginfo('template_directory'); ?>/images/partner/edev_color.png",
 										"<?php bloginfo('template_directory'); ?>/images/partner/olp_color.png",
-										"<?php bloginfo('template_directory'); ?>/images/partner/tu_color.png");
+										"<?php bloginfo('template_directory'); ?>/images/partner/inso.png");
 
 		for(var i=0; i < preLoadImgsUrls.length; i++) {
 			tmp = new Image();
