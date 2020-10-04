@@ -59,11 +59,11 @@
     <div id="wrapper">
 
         <div id="header">
-        	<? include("header_social.php"); ?>
+        	<?php include("header_social.php"); ?>
 
-        	<? include("header_menu.php"); ?>
+        	<?php include("header_menu.php"); ?>
 
 
         </div><!-- header -->
 
-        <? include("header_donate.php"); ?>
+        <?php include("header_donate.php"); ?>
